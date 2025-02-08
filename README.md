@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Ensure you have the following installed before proceeding:
+Ensure you have the following installed before proceeding or use the dev container:
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
 - AWS CLI configured with appropriate credentials
 - Apache Spark installed for local execution of Glue jobs
