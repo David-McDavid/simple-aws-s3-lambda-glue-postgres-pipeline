@@ -1,14 +1,14 @@
 {
-    "name": "Terraform AWS Glue PySpark Dev Container",
-    "dockerFile": "Dockerfile",
-    "context": "..",
-    "appPort": [],
-    "postCreateCommand": "terraform --version && aws --version && python --version",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
-        "ms-python.python",
-        "hashicorp.terraform"
-    ]
+  "name": "Terraform AWS Glue PySpark Dev Container",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "appPort": [],
+  "postCreateCommand": "terraform --version && aws --version && python --version",
+  "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+      "ms-python.python",
+      "hashicorp.terraform"
+  ]
 }

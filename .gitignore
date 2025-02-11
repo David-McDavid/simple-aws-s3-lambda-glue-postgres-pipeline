@@ -1,2 +1,6 @@
 *.lock.hcl
 .terraform/*
+assets/*
+postgresql*
+lambda_code.zip
+build.sh
